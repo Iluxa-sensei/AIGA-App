@@ -1,0 +1,55 @@
+name: aiga
+description: AIGA
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  sizer: ^2.0.15              # Required for responsive design system
+  flutter_svg: ^2.0.9        # Required for SVG icon support
+  google_fonts: ^6.1.0       # Required for typography (replaces local fonts)
+  shared_preferences: ^2.2.2 # Required for local data storage
+  web: ^1.1.1
+
+  # Supabase Integration
+  supabase_flutter: ^2.9.1    # Flutter integration for Supabase backend
+
+  # Feature dependencies - safe to modify
+  cached_network_image: ^3.3.1
+  connectivity_plus: ^6.1.4
+  dio: ^5.4.0
+  fluttertoast: ^8.2.4
+  fl_chart: ^0.65.0
+  camera: ^0.10.5+5
+  permission_handler: ^11.1.0
+
+  # File operations and media
+  image_picker: ^1.1.2
+  record: ^6.0.0
+  file_picker: ^10.2.0
+  path_provider: ^2.1.5
+  universal_html: ^2.2.4
+
+  # QR Code functionality
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^3.4.1
+
+  # NFC functionality
+  nfc_manager: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0 #
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
